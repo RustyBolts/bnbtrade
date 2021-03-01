@@ -1,0 +1,1 @@
+HASH={},function(){var e={},o=window.location.search.split("?")[1];o&&o.split("&").forEach(function(o){var t=o.split("=");e[t[0]]=t[1]||""});var t=e.game||"firebase",n=e.room||"lobby",i=e.event||"";HASH.ref={hoster:t+"_"+n+"_hoster",client:t+"_"+n+"_client",reconnect:t+"_"+n+"_reconnect"},HASH.room=n,HASH.event=i,HASH.isHost=void 0!=e.host,HASH.isOnline=void 0==e.test}();
